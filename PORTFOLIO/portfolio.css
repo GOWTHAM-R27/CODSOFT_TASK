@@ -1,0 +1,329 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.logo {
+  margin-left: 30px;
+}
+nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(244, 244, 202);
+  position: fixed;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  font-size: larger;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+nav ul li a {
+  color: black;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  margin-top: 160px;
+}
+.about-details {
+  width: 50%;
+
+}
+.about-details h2 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+.about-details p {
+  margin-top: 30px;
+  font-size: large;
+  line-height: 1.5;
+}
+span {
+  color: #3b93c0;
+}
+.about-details i {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: xx-large;
+}
+.about-details .button {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.view-more-buttons {
+  background-image: linear-gradient(to right, #134E5E 0%, #71B280 51%, #134E5E 100%);
+}
+.view-more-buttons1 {
+  background-image: linear-gradient(to right, #1F1C2C 0%, #928DAB 51%, #1F1C2C 100%);
+  margin-left: 20px;
+}
+.view-more-buttons,
+.view-more-buttons1 {
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  font-size: 15PX;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  cursor: pointer;
+}
+.view-more-buttons:hover,
+.view-more-buttons1:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+.about-my-profile img {
+  border-top-right-radius: 25%;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 35%;
+  width: 400px;
+  cursor: pointer;
+}
+.about-my-profile img:hover {
+  border-top-right-radius: 35%;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 25%;
+  transition: 0.2s ease-in-out;
+}
+.My-profile {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 40px 10px;
+}
+.my-profile-image {
+  width: 300px;
+  border-radius: 8px;
+}
+.my-profile-details {
+  width: 60%;
+}
+.my-profile-details h2 {
+  color: brown;
+  margin-top: 20px;
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+  width: max-content;
+  padding: 0 10px 5px 0;
+}
+.my-profile-details p {
+  margin-top: 30px;
+  line-height: 1.5;
+  font-size: larger;
+}
+.my-profile-details p span {
+  font-size: 28px;
+  font-weight: bold;
+}
+.experience-section {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(170, 219, 168);
+}
+.experience-title {
+  font-size: 24px;
+  color: #21113e;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.skill-container {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.skill {
+  width: 200px;
+  margin-bottom: 10px;
+  background-color: rgb(238, 238, 228);
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 8px black;
+  cursor: pointer;
+}
+.skill img {
+  cursor: pointer;
+}
+.skill:hover img {
+  transform: scale(1.1);
+  margin-top: -30px;
+  width: 35%;
+  transition: 0.1s ease-in-out;
+}
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.skill-bar {
+  height: 20px;
+  background-color: #2196f3;
+  border-right: 1px solid white;
+}
+.bgBar {
+  background-color: #ffffff;
+  border: 1px solid rgb(197, 187, 187);
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: antiquewhite;
+}
+.projects h2 {
+  text-transform: uppercase;
+}
+.project-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.project-1,
+.project-2 {
+  display: flex;
+  text-align: justify;
+  width: 45%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 6px;
+}
+.project-1 span,
+.project-2 span {
+  font-size: larger;
+  text-transform: uppercase;
+  color: brown;
+  font-weight: bold;
+}
+.project-1-description,
+.project-2-description {
+  margin-left: 20px;
+}
+.contact-me{
+  background-color: rgb(67, 154, 118);
+  padding: 30px 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-me h2{
+  text-transform: uppercase;
+  color: white;
+}
+.contact-me form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 6px;
+  padding: 20px 30px;
+  width: 30%;
+}
+.contact-me form label{
+  margin-top: 20px;
+  font-weight: lighter;
+}
+.contact-me form input{
+  margin-top: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.contact-me form input:focus{
+  outline: none;
+  border-bottom: 2px solid black;
+}
+.contact-me form button{
+  margin-top: 30px;
+  background-color: rgb(110, 126, 132);
+  color: white;
+  font-size: large;
+  padding: 5px 25px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  background-color: rgb(31, 30, 30);
+  color: white;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer i {
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: xx-large;
+  cursor: pointer;
+}
+.mobile-no {
+  margin-top: 20px;
+  padding: 5px 15px;
+  background-color: #fff724;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: medium;
+  color: black;
+  cursor: pointer;
+}
+.email-id {
+  padding: 5px 15px;
+  background-color: #fff724;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: medium;
+  color: black;
+  cursor: pointer;
+}
+.footer-about .footer-about-title {
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin: 0 auto;
+  font-size: larger;
+  border-bottom: 2px solid #fff724;
+  width: max-content;
+  padding: 0px 10px 5px 0px;
+}
+.footer-about-content{
+  margin-top: 20px;
+}
+.Copyright {
+  margin-top: 20px;
+}
