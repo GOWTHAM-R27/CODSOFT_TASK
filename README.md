@@ -68,6 +68,6 @@ I am a passionate developer with a strong interest in web development, UI/UX des
 
 ## Contact
 - GitHub: [My GitHub Profile](https://github.com/gowtham-r27)
-- Email: your.email@example.com
+- Email: 2k19cse027@kiot.ac.in
 
 Feel free to explore my portfolio, and don't hesitate to contact me for collaboration or inquiries!
