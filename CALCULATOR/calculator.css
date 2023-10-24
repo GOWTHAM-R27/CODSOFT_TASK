@@ -1,0 +1,89 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-image: url('assets/calbg.jpg');
+    /* height: 100vh; */
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    text-transform: uppercase;
+    color: #fff724;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.calculator {
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 10px;
+    width: max-content;
+    height: 510px;
+    background-color: rgb(75, 31, 31,  0.55);
+    backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+    color: white;
+    border-radius: 6px;
+    border: 2px solid white;
+    z-index: 1000;
+}
+
+.calculator .display {
+    background-color: white;
+    padding: 10px 20px;
+    width: auto;
+    height: 70px;
+    color: black;
+    font-size: x-large;
+    border-radius: 8px;
+}
+
+.calculator-numbers {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    /* margin: 0 auto; */
+    justify-content: center;
+}
+.calculator-numbers .operator-button{
+    background-color: #fff724;
+    color: black;
+}
+.calculator-numbers .clear-button{
+    background-color: aliceblue;
+    color: black;
+}
+.calculator-numbers .equal-button{
+    background-color: rgb(89, 137, 179);
+    color: rgb(255, 255, 255);
+    position:fixed;
+    margin-top: 400px;
+    width: 95%;
+    
+}
+.calculator-numbers .equal-button:hover{
+    width: 94.5%;
+}
+
+.calculator-numbers button {
+    padding: 10px;
+    width: 90px;
+    height: 80px;
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #9c9b76;
+}
+
+.calculator-numbers button:hover{
+    background-color: aliceblue;
+    color: black;
+    width:88px ;
+    height:78px ;
+    transition: 0.15s ease;
+}
